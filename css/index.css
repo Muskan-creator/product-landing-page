@@ -9,7 +9,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-left: 50px;
+  margin-left: 3.5rem;
 }
 .nav-items {
   display: flex;
@@ -58,7 +58,7 @@ h3 {
   font-weight: 400;
   margin-top: 50px;
 }
-h1 {
+.heading-1{
   font-family: "Fredoka One";
   font-weight: 500;
   font-size: 4rem;
@@ -91,7 +91,7 @@ h5 {
   color: #8f8b8b;
   font-family: "Poppins";
   font-weight: 100;
-  margin: 80px 20px;
+  margin: 5rem 1.2rem;
 }
 .action-btn {
   color: #fff;
@@ -124,8 +124,8 @@ h5 {
 }
 .discount-content {
   position: absolute;
-  top: 55%;
-  left: 10%;
+  top: 58%;
+  left: 15%;
   color: #fff;
 }
 .discount-content h4 {
@@ -172,6 +172,59 @@ h5 {
   padding: 10px 30px;
   font-family: "Poppins";
   font-size: 1rem;
-  margin-left: 190px;
-  margin-top: 50px;
+  margin-left: 11.8rem;
+  margin-top:3.12rem ;
+}
+@media  only screen and (max-width:360px) {
+  .intro-section{
+    flex-direction: column;
+  }
+  .nav-items {
+    display: none;
+  }
+  .nav-item{
+    display: none;
+    margin:0 auto;
+  }
+  .action-btns{
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .action-btn1{
+    margin:0rem 1rem;
+  }
+  .headphone {
+    height: 80vh;
+    width:70vw;
+  }
+  .heading-1{
+    text-align: center;
+    font-size:2.5rem;
+  }
+  .actions-nav{
+    display: none;
+
+  }
+  .sub-headlines{
+    margin:2rem auto;
+  }
+  .text{
+    margin:1rem 2rem;
+  
+  }
+ 
+  h3{
+    text-align: center;
+    line-height: 1.7rem;
+  }
+  .discount-content {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+  
+  }
+
+
+  
 }
