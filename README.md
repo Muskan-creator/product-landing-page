@@ -2,7 +2,7 @@
 ##  Created by `Muskan` <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
 
-> ### **Live deployed website link** :-[Netlify link](https://62dffd286e06d0098477df3b--product-landing-pagedesign.netlify.app/)
+> ### **Live deployed website link** :-[Netlify link](https://product-landing-pagedesign.netlify.app/)
 <br>
 <span>
 <img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
